@@ -3,9 +3,9 @@ export const achievementData = {
   achievements: [
     {
       id: 1,
-      title: "Google Cloud certification",
+      title: "Databricks Data Engineer Associate",
       details:
-        "Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.",
+        "Databricks certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.",
       date: "Aug 20, 2019",
       field: "Automation",
       image:
