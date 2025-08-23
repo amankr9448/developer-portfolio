@@ -1,47 +1,76 @@
+import gfgLogo from "./generated-image.png";
+import azurelogo from "./azure-logo.png";
+import dbrlogo from "./databrick.png";
+import agenticAi from "./agenticai.png";
+import genAI from "./genai.png";
 export const achievementData = {
-  bio: "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
+  bio: "Certified in multiple industry-recognized data engineering and AI disciplines. Demonstrates proven expertise in cloud platforms, ETL, AI, and fundamental software engineering with hands-on certification achievements and strong coding profiles.",
   achievements: [
     {
       id: 1,
-      title: "Databricks Data Engineer Associate",
+      title: "Databricks Certified Data Engineer Associate",
       details:
-        "Databricks certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.",
-      date: "Aug 20, 2019",
-      field: "Automation",
-      image:
-        "https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
+        "Validated skills in designing scalable ETL pipelines, data engineering tasks.",
+      date: "May 2025",
+      field: "Data Engineering",
+      image: dbrlogo,
+      link: "https://credentials.databricks.com/b9fff46e-07f5-4e89-b7e0-8616d1bcfcdd",
+      linkText: "View Certificate",
     },
     {
       id: 2,
-      title: "AWS Certification",
-      details:
-        "Validate technical skills and cloud expertise to grow your career and business.",
-      date: "Aug 20, 2019",
-      field: "Automation",
-      image:
-        "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      title: "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      details: "Proven foundational knowledge of Microsoft Azure.",
+      date: "2023",
+      field: "Cloud Fundamentals",
+      image: azurelogo,
+      link: "https://learn.microsoft.com/en-us/users/amankumar-0059/credentials/8a3a53fce14f0f7e",
+      linkText: "View Certificate",
     },
     {
       id: 3,
-      title: "Professional Data Engineer Certification",
+      title: "Agentic AI - Fundamentals",
       details:
-        "Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.",
-      date: "Aug 20, 2019",
-      field: "Automation",
+        "Certified foundational understanding in designing and applying agentic AI solutions",
+      date: "2024",
+      field: "Artificial Intelligence",
+      image: agenticAi,
+      link: "https://d1a5x01xrt55f1.cloudfront.net/kPYxSpBr",
+      linkText: "View Certificate",
+    },
+    {
+      id: 4,
+      title: "Generative AI - Fundamentals",
+      details:
+        "Demonstrated knowledge in generative AI architectures, including LLMs, text generation and model deployment.",
+      date: "2024",
+      field: "Artificial Intelligence",
+      image: genAI,
+      link: "https://d1a5x01xrt55f1.cloudfront.net/wZgtfTHI",
+      linkText: "View Certificate",
+    },
+    {
+      id: 5,
+      title: "LeetCode Profile",
+      details:
+        "Active profiles showcasing performance and problem-solving on LeetCode.",
+      date: "",
+      field: "Competitive Coding",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpR53ixkfZvuntB9YIbi98vM9YH0vJ9oUi2A&s",
+        "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
+      link: "https://leetcode.com/amankr9448/",
+      linkText: "View Profile",
+    },
+    {
+      id: 6,
+      title: "GeeksForGeeks Profile",
+      details:
+        "Demonstrates proficiency through solved problems and code submissions on GeeksForGeeks.",
+      date: "",
+      field: "Competitive Coding",
+      image: gfgLogo,
+      link: "https://auth.geeksforgeeks.org/user/amankr9448/profile",
+      linkText: "View Profile",
     },
   ],
 };
-
-// Do not remove any fields.
-// Leave it blank instead as shown below.
-
-/*
-
-export const achievementData = {
-    bio : "",
-    achievements : []
-}
-
-*/

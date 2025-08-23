@@ -22,3 +22,34 @@
   color: #fff;
   text-decoration: none;
 }
+.projectDetails-description ul,
+.projectDetails-container ul {
+  list-style: disc;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projectDetails-description h4 {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.projectDetails-description p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+.projectDetails-card {
+  flex-wrap: wrap;
+}
+@media (max-width: 900px) {
+  .projectDetails-card {
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 1.2rem;
+  }
+  .projectDetails-card img {
+    max-width: 98vw;
+    margin: 0 auto;
+  }
+}
