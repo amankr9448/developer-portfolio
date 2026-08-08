@@ -72,5 +72,16 @@ export const achievementData = {
       link: "https://auth.geeksforgeeks.org/user/amankr9448/profile",
       linkText: "View Profile",
     },
+    {
+      id: 7,
+      title: "HackWithInfy 2022 Qualified",
+      details:
+        "Qualified for Infosys' national-level competitive coding challenge, HackWithInfy 2022.",
+      date: "2022",
+      field: "Competitive Coding",
+      image: "",
+      link: "",
+      linkText: "",
+    },
   ],
 };

@@ -2,14 +2,14 @@ export const experienceData = [
   {
     id: 1,
     company: "Genpact",
-    jobtitle: "Backend Developer",
+    jobtitle: "Software Developer",
     startYear: "2023",
     endYear: "Present",
   },
   {
     id: 2,
-    company: "Enquero - A Genpact Company",
-    jobtitle: "SWE Intern",
+    company: "Enquero Global LLP (A Genpact Company)",
+    jobtitle: "Software Engineering Intern",
     startYear: "2023",
     endYear: "2023",
   },

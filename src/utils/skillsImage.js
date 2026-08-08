@@ -74,6 +74,10 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import redis from '../assets/svg/skills/redis.svg'
+import fastapi from '../assets/svg/skills/fastapi.svg'
+import linux from '../assets/svg/skills/linux.svg'
+import opensearch from '../assets/svg/skills/opensearch.svg'
 
 
 export const skillsImage = (skill) => {
@@ -227,6 +231,14 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'redis':
+            return redis;
+        case 'fastapi':
+            return fastapi;
+        case 'linux':
+            return linux;
+        case 'opensearch':
+            return opensearch;
         default:
             break;
     }

@@ -90,4 +90,20 @@ export const projectsData = [
       "Enabled cross-team accessibility and adoption of AI-driven data solutions.",
     ],
   },
+  {
+    id: 6,
+    projectName: "Secure Compliance Data Architecture",
+    projectDesc:
+      "Designed a secure, compliance-oriented data access architecture for regulated datasets, applying encryption, access control, and audit logging principles, alongside hashing techniques for searching encrypted data.",
+    tags: ["Python", "Django", "AWS", "Security", "System Design"],
+    code: "",
+    demo: "",
+    image: five,
+    projectDetails: [
+      "Designed a secure data access architecture for regulated datasets, applying core cloud security principles: encryption, least-privilege access control, and audit logging.",
+      "Explored hashing-based techniques for enabling search and filtering over encrypted data without exposing plaintext values.",
+      "Strengthened understanding of compliance-driven system design, including access boundaries, data residency, and exposure minimization.",
+      "Collaborated with security and compliance stakeholders to align the design with regulatory requirements.",
+    ],
+  },
 ];

@@ -15,8 +15,8 @@ export const educationData = [
   // },
   {
     id: 1,
-    institution: "NMIT Bengaluru",
-    course: "Bachelors In Computer Science & Engineering",
+    institution: "Nitte Meenakshi Institute of Technology",
+    course: "Bachelor of Engineering in Computer Science — CGPA: 8.51/10.0",
     startYear: "2019",
     endYear: "2023",
   },
